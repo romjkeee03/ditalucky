@@ -1,0 +1,22 @@
+{
+  "name": "steam-bot",
+  "version": "0.6",
+  "description": "",
+  "main": "steambot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ДикиЙ[EZYSKINS.RU]",
+  "license": "Все права пренадлежат EZYSKINS.RU",
+  "devDependencies": {
+    "mongodb": "^2.0.33",
+    "path": "^0.11.14",
+    "q": "^1.4.1",
+    "socket.io": "^1.1.1",
+    "steam": "^0.1.1",
+    "steam-tradeoffers": "^1.2.3"
+  },
+  "dependencies": {
+    "xss": "^0.2.2"
+  }
+}

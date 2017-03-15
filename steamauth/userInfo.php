@@ -1,0 +1,44 @@
+<?php
+	include("settings.php");
+    if (empty($_SESSION['steam_uptodate']) or $_SESSION['steam_uptodate'] == false or empty($_SESSION['steam_personaname'])) {
+        $url = file_get_contents("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=".$steamauth['apikey']."&steamids=".$_SESSION['steamid']); 
+        $content = json_decode($url, true);
+$filter = '/golucky|CSGOLINE.RU|CSGOIN|csgoin|WOODUPPERS|csgokill|CSGOKILL|wooduppers|cslots|CSLOTS|LOTS|lots|gl|GL|csgotrue|true|TRUE|CSGOTRUE|CSGONINJA|firecsgo|FIRECSGO|csgo|ticket|TICKET|CSGO|CSgetto|CSGOSELLER|CSGOEZY|csgoezy|CSGOWAR|uitems|CSGOSTART|csgostart|skinswin|SKINSWIN|csmonkey|CSMONKEY|CSGOCASE.PRO|CSGOUP|CSJACKPOT|CSGO-JAKPOT|CSLOTS|CSGO-FARM|html|script|src|scr|frame|gojackpot|starlucky|shop|skinarena|raffle|csgoup|goshuffle|gameluck|casino|DOTA2HOUSE|UITEMS|roulettecsgo|ROULETTECSGO|LUCKY-SKIN|lucky-skin|HARD-LUCKY|hard-lucky|JACKBEST|jackbets|FLL-LUCKY|fll-lucky|SKINBETS|skinbets|CSGOHOT|csgohot|csgo-chance|CSGO-CHANCE|CSGORISE|csgorise|CSFARM|csfarm|CATSKINS|catskins|mycsgoup|CSGOAMMO|MYCSGOUP|pro|farm|cslottery|CSGOVICTORY|goskins/';
+
+
+        $_SESSION['steam_steamid'] = $content['response']['players'][0]['steamid'];
+        $_SESSION['steam_communityvisibilitystate'] = $content['response']['players'][0]['communityvisibilitystate'];
+        $_SESSION['steam_profilestate'] = $content['response']['players'][0]['profilestate'];
+        $_SESSION['steam_personaname'] = htmlspecialchars(preg_replace($filter, '', $content['response']['players'][0]['personaname']));
+        $_SESSION['steam_lastlogoff'] = $content['response']['players'][0]['lastlogoff'];
+        $_SESSION['steam_profileurl'] = $content['response']['players'][0]['profileurl'];
+        $_SESSION['steam_avatar'] = $content['response']['players'][0]['avatar'];
+        $_SESSION['steam_avatarmedium'] = $content['response']['players'][0]['avatarmedium'];
+        $_SESSION['steam_avatarfull'] = $content['response']['players'][0]['avatarfull'];
+        $_SESSION['steam_personastate'] = $content['response']['players'][0]['personastate'];
+        if (isset($content['response']['players'][0]['realname'])) { 
+	           $_SESSION['steam_realname'] = htmlspecialchars(preg_replace($filter, '', $content['response']['players'][0]['realname']));
+	       } else {
+	           $_SESSION['steam_realname'] = "Real name not given";
+        }
+        $_SESSION['steam_primaryclanid'] = $content['response']['players'][0]['primaryclanid'];
+        $_SESSION['steam_timecreated'] = $content['response']['players'][0]['timecreated'];
+        $_SESSION['steam_uptodate'] = true;
+    }
+    
+    $steamprofile['steamid'] = $_SESSION['steam_steamid'];
+    $steamprofile['communityvisibilitystate'] = $_SESSION['steam_communityvisibilitystate'];
+    $steamprofile['profilestate'] = $_SESSION['steam_profilestate'];
+    $steamprofile['personaname'] = $_SESSION['steam_personaname'];
+    $steamprofile['lastlogoff'] = $_SESSION['steam_lastlogoff'];
+    $steamprofile['profileurl'] = $_SESSION['steam_profileurl'];
+    $steamprofile['avatar'] = $_SESSION['steam_avatar'];
+    $steamprofile['avatarmedium'] = $_SESSION['steam_avatarmedium'];
+    $steamprofile['avatarfull'] = $_SESSION['steam_avatarfull'];
+    $steamprofile['personastate'] = $_SESSION['steam_personastate'];
+    $steamprofile['realname'] = $_SESSION['steam_realname'];
+    $steamprofile['primaryclanid'] = $_SESSION['steam_primaryclanid'];
+    $steamprofile['timecreated'] = $_SESSION['steam_timecreated'];
+
+?>
+    

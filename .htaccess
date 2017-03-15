@@ -1,0 +1,42 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^about about.php
+RewriteRule ^top top.php
+RewriteRule ^history history.php 
+RewriteRule ^index index.php 
+RewriteRule ^myprofile myprofile.php
+RewriteRule ^settings mysettings.php
+RewriteRule ^ru ru.php
+RewriteRule ^en en.php
+RewriteRule ^admin/users admin/users.php
+RewriteRule ^admin/chat admin/chat.php
+RewriteRule ^admin/console admin/console.php
+RewriteRule ^admin/sett admin/sett.php
+RewriteRule ^stat stat.php
+</IfModule>
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+RewriteRule ^(.*)$ index.php [F,L] 
+
+
+<Limit GET POST>
+order allow,deny
+deny from 255.255.255.255
+deny from 85.198.130.52
+deny from 109.229.8.5
+deny from 213.231.56.149
+deny from 178.44.182.104
+deny from 85.198.130.52
+deny from 217.20.76.169
+deny from 93.171.163.33
+deny from 162.222.183.221
+deny from 46.166.101.125
+deny from 76.89.252.200
+allow from all
+</Limit>
+

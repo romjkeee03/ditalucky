@@ -1,0 +1,392 @@
+[4:51:57:125] Message: "Using ssfn file"
+[4:51:58:63] Message: "mongo connected"
+connected
+encrypt request
+handshake complete
+[4:51:59:651] Message: "Logged in!"
+[4:51:59:751] Message: "webSessionID ok"
+[4:52:1:791] Message: "webLogOn ok"
+socket error: Error: read ETIMEDOUT
+socket closed with an error
+unexpected disconnection
+waiting 1 secs
+connecting to 208.78.164.12:27017
+connected
+encrypt request
+handshake complete
+[7:28:5:505] Message: "Logged in!"
+[7:28:7:255] Message: "webSessionID ok"
+[7:28:9:414] Message: "webLogOn ok"
+[17:17:45:600] Message: "New offers: 1"
+[17:17:46:630] Message: "Current game offers" at row:716, Content:  []
+[17:17:46:637] Message: "Sending api request..."
+[17:17:47:81] Message: "Received api request!"
+[17:17:50:38] Message: "Next function is acceptOffer! - 76561198089643543 - 663863419"
+[17:17:50:39] Message: "Checking min deposite - 663863419"
+[17:17:50:41] Message: "Принимаем трейд id - 76561198089643543"
+[17:17:50:41] Message: "Greater than min deposite - 663863419"
+[17:18:4:590] Message: "Timer tick is 0"
+[17:18:6:92] Message: "Players test print" at row:1453, Content:  [ { steamid: '76561198089643543',
+    min: 0,
+    max: 9.52,
+    nick: 'Chad',
+    ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+    item: 'G3SG1 | Orange Kimono (Minimal Wear)',
+    color: 'rgb(255,255,255)',
+    image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf2-r3ejRP49K5q4SClvr7Pb_CqWRD6ct2j9bN_Iv9nBq2rxI-Zj33co-XJAM5YluFrlG7x7y90JS7uprPyCFgvSdw4CzemxW2n1gSObjKzSbu' } ]
+[17:18:6:96] Message: "Test Total Cost" at row:1454, Content:  9.52
+[17:18:6:96] Message: "Players array length" at row:1430, Content:  1
+[17:18:6:103] Message: "Winner player min and max" at row:1435, Content:  { steamid: '76561198089643543',
+  min: 0,
+  max: 9.52,
+  nick: 'Chad',
+  ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+  item: 'G3SG1 | Orange Kimono (Minimal Wear)',
+  color: 'rgb(255,255,255)',
+  image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf2-r3ejRP49K5q4SClvr7Pb_CqWRD6ct2j9bN_Iv9nBq2rxI-Zj33co-XJAM5YluFrlG7x7y90JS7uprPyCFgvSdw4CzemxW2n1gSObjKzSbu' }
+[17:18:6:104] Message: "winner in cycle: 76561198089643543"
+[17:18:6:104] Message: "No game offers, can give prize"
+[17:18:6:114] Message: "Trade offer token: oOl2eUYC"
+[17:18:6:114] Message: "account id: 129377815"
+[17:18:8:523] Message: "Current items: ,G3SG1 | Orange Kimono (Minimal Wear)" at row:undefined, Content:  undefined
+[17:18:8:523] Message: "Chance: 1"
+[17:18:8:524] Message: "Sent:"
+[17:18:8:524] Message: "G3SG1 | Orange Kimono (Minimal Wear) || G3SG1 | Orange Kimono (Minimal Wear) || 3264389476"
+[17:18:10:240] Message: "Wipe function started"
+[17:18:10:241] Message: "Prepared items to history"
+[17:18:10:241] Message: "Starting to send all "end-game""
+[17:18:10:242] Message: "Starting updating history"
+[17:18:10:251] Message: "Trying to update total win counter"
+[17:18:10:253] Message: "Trying to update max win counter"
+[17:18:10:256] Message: "Trying to update today max win counter"
+[17:18:10:256] Message: "Trying to update game counter"
+[17:18:10:257] Message: "All globals cleared, next is setTimeout 20"
+[17:18:10:257] Message: "wiped"
+[17:18:10:259] Message: "Successfully updated history table"
+[17:18:10:262] Message: "Successfully updated game counter"
+[17:18:10:262] Message: "Successfully updated TotalWin"
+[17:18:10:262] Message: "Successfully updated max win"
+[17:18:10:263] Message: "Successfully updated today max win"
+[17:18:30:261] Message: "Send all game number, jackpot 0"
+[17:18:30:262] Message: "Starting to send informers for each socket"
+[17:18:30:287] Message: "Send all "start-game""
+[17:44:55:179] Message: "New offers: 1"
+[17:44:56:227] Message: "Current game offers" at row:716, Content:  []
+[17:44:56:232] Message: "Sending api request..."
+[17:44:56:825] Message: "Received api request!"
+[17:44:58:16] Message: "Next function is acceptOffer! - 76561198089643543 - 663907506"
+[17:44:58:17] Message: "Checking min deposite - 663907506"
+[17:44:58:18] Message: "Принимаем трейд id - 76561198089643543"
+[17:44:58:18] Message: "Greater than min deposite - 663907506"
+[17:45:11:100] Message: "Timer tick is 0"
+[17:45:12:602] Message: "Players test print" at row:1453, Content:  [ { steamid: '76561198089643543',
+    min: 0,
+    max: 14.28,
+    nick: 'Chad',
+    ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+    item: 'StatTrak™ XM1014 | Quicksilver (Field-Tested)',
+    color: 'rgb(207, 106, 50)',
+    image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PLZTiVPvYznwL-YnvD4MoTck29Y_cg_i-zA8N2m2VLhrRE6YW37I4aXJ1BsZlzVrwS5kr_v0JXqv8zPmCZmuz5iuyixdSs-tw' },
+  { steamid: '76561198089643543',
+    min: 14.28,
+    max: 23.799999999999997,
+    nick: 'Chad',
+    ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+    item: 'G3SG1 | Orange Kimono (Minimal Wear)',
+    color: 'rgb(255,255,255)',
+    image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf2-r3ejRP49K5q4SClvr7Pb_CqWRD6ct2j9bN_Iv9nBq2rxI-Zj33co-XJAM5YluFrlG7x7y90JS7uprPyCFgvSdw4CzemxW2n1gSObjKzSbu' } ]
+[17:45:12:614] Message: "Test Total Cost" at row:1454, Content:  23.799999999999997
+[17:45:12:614] Message: "Players array length" at row:1430, Content:  2
+[17:45:12:624] Message: "Winner player min and max" at row:1435, Content:  { steamid: '76561198089643543',
+  min: 14.28,
+  max: 23.799999999999997,
+  nick: 'Chad',
+  ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+  item: 'G3SG1 | Orange Kimono (Minimal Wear)',
+  color: 'rgb(255,255,255)',
+  image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf2-r3ejRP49K5q4SClvr7Pb_CqWRD6ct2j9bN_Iv9nBq2rxI-Zj33co-XJAM5YluFrlG7x7y90JS7uprPyCFgvSdw4CzemxW2n1gSObjKzSbu' }
+[17:45:12:625] Message: "winner in cycle: 76561198089643543"
+[17:45:12:625] Message: "No game offers, can give prize"
+[17:45:12:639] Message: "Trade offer token: oOl2eUYC"
+[17:45:12:639] Message: "account id: 129377815"
+[17:45:15:4] Message: "Current items: ,StatTrak™ XM1014 | Quicksilver (Field-Tested),G3SG1 | Orange Kimono (Minimal Wear)" at row:undefined, Content:  undefined
+[17:45:15:4] Message: "Chance: 1"
+[17:45:15:4] Message: "Sent:"
+[17:45:15:4] Message: "StatTrak™ XM1014 | Quicksilver (Field-Tested) || StatTrak™ XM1014 | Quicksilver (Field-Tested) || 3264649588"
+[17:45:15:4] Message: "G3SG1 | Orange Kimono (Minimal Wear) || G3SG1 | Orange Kimono (Minimal Wear) || 3264649555"
+[17:45:17:747] Message: "Wipe function started"
+[17:45:17:747] Message: "Prepared items to history"
+[17:45:17:747] Message: "Starting to send all "end-game""
+[17:45:17:748] Message: "Starting updating history"
+[17:45:17:751] Message: "Trying to update total win counter"
+[17:45:17:752] Message: "Trying to update max win counter"
+[17:45:17:754] Message: "Trying to update today max win counter"
+[17:45:17:757] Message: "Trying to update game counter"
+[17:45:17:759] Message: "All globals cleared, next is setTimeout 20"
+[17:45:17:759] Message: "wiped"
+[17:45:17:761] Message: "Successfully updated history table"
+[17:45:17:763] Message: "Successfully updated game counter"
+[17:45:17:764] Message: "Successfully updated today max win"
+[17:45:17:764] Message: "Successfully updated TotalWin"
+[17:45:17:764] Message: "Successfully updated max win"
+[17:45:37:761] Message: "Send all game number, jackpot 0"
+[17:45:37:761] Message: "Starting to send informers for each socket"
+[17:45:37:777] Message: "Send all "start-game""
+socket ended
+socket closed
+connecting to 208.64.201.169:27018
+socket timed out
+socket closed
+connecting to 208.78.164.9:27017
+connected
+encrypt request
+handshake complete
+logon fail: 48, sessionID: 8218827
+socket ended
+socket closed
+connecting to 162.254.197.42:27020
+connected
+encrypt request
+handshake complete
+[21:18:27:726] Message: "Logged in!"
+[21:18:28:727] Message: "webSessionID ok"
+[21:18:31:30] Message: "webLogOn ok"
+[21:23:31:313] Message: "New offers: 1"
+[21:23:32:204] Message: "Current game offers" at row:716, Content:  []
+[21:23:32:213] Message: "Sending api request..."
+[21:23:32:621] Message: "Received api request!"
+[21:23:33:993] Message: "Next function is acceptOffer! - 76561198089643543 - 664175614"
+[21:23:33:994] Message: "Checking min deposite - 664175614"
+[21:23:33:995] Message: "Принимаем трейд id - 76561198089643543"
+[21:23:33:995] Message: "Greater than min deposite - 664175614"
+[21:23:46:752] Message: "Timer tick is 0"
+[21:23:48:253] Message: "Players test print" at row:1453, Content:  [ { steamid: '76561198089643543',
+    min: 0,
+    max: 5.44,
+    nick: 'Chad',
+    ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+    item: 'eSports 2014 Summer Case',
+    color: 'rgb(191,191,191)',
+    image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C' },
+  { steamid: '76561198089643543',
+    min: 5.44,
+    max: 10.88,
+    nick: 'Chad',
+    ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+    item: 'eSports 2014 Summer Case',
+    color: 'rgb(191,191,191)',
+    image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C' } ]
+[21:23:48:255] Message: "Test Total Cost" at row:1454, Content:  10.88
+[21:23:48:255] Message: "Players array length" at row:1430, Content:  2
+[21:23:48:257] Message: "Winner player min and max" at row:1435, Content:  { steamid: '76561198089643543',
+  min: 5.44,
+  max: 10.88,
+  nick: 'Chad',
+  ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+  item: 'eSports 2014 Summer Case',
+  color: 'rgb(191,191,191)',
+  image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C' }
+[21:23:48:257] Message: "winner in cycle: 76561198089643543"
+[21:23:48:257] Message: "No game offers, can give prize"
+[21:23:48:264] Message: "Trade offer token: oOl2eUYC"
+[21:23:48:265] Message: "account id: 129377815"
+[21:23:50:374] Message: "Current items: ,eSports 2014 Summer Case,eSports 2014 Summer Case" at row:undefined, Content:  undefined
+[21:23:50:374] Message: "Chance: 1"
+[21:23:50:374] Message: "Sent:"
+[21:23:50:374] Message: "eSports 2014 Summer Case || eSports 2014 Summer Case || 3266122234"
+[21:23:50:375] Message: "eSports 2014 Summer Case || eSports 2014 Summer Case || 3266122267"
+[21:23:52:43] Message: "Wipe function started"
+[21:23:52:43] Message: "Prepared items to history"
+[21:23:52:46] Message: "Starting to send all "end-game""
+[21:23:52:48] Message: "Starting updating history"
+[21:23:52:51] Message: "Trying to update total win counter"
+[21:23:52:56] Message: "Trying to update max win counter"
+[21:23:52:58] Message: "Trying to update today max win counter"
+[21:23:52:60] Message: "Trying to update game counter"
+[21:23:52:60] Message: "All globals cleared, next is setTimeout 20"
+[21:23:52:61] Message: "wiped"
+[21:23:52:62] Message: "Successfully updated history table"
+[21:23:52:63] Message: "Successfully updated game counter"
+[21:23:52:65] Message: "Successfully updated TotalWin"
+[21:23:52:66] Message: "Successfully updated max win"
+[21:23:52:66] Message: "Successfully updated today max win"
+[21:24:12:62] Message: "Send all game number, jackpot 0"
+[21:24:12:63] Message: "Starting to send informers for each socket"
+[21:24:12:85] Message: "Send all "start-game""
+[21:44:32:51] Message: "New offers: 1"
+[21:44:32:976] Message: "Current game offers" at row:716, Content:  []
+[21:44:32:983] Message: "Sending api request..."
+[21:44:33:400] Message: "Received api request!"
+[21:44:34:626] Message: "Next function is acceptOffer! - 76561198089643543 - 664190718"
+[21:44:34:626] Message: "Checking min deposite - 664190718"
+[21:44:34:627] Message: "Принимаем трейд id - 76561198089643543"
+[21:44:34:627] Message: "Greater than min deposite - 664190718"
+[21:44:48:128] Message: "Timer tick is 0"
+[21:44:49:630] Message: "Players test print" at row:1453, Content:  [ { steamid: '76561198089643543',
+    min: 0,
+    max: 5.44,
+    nick: 'Chad',
+    ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+    item: 'eSports 2014 Summer Case',
+    color: 'rgb(191,191,191)',
+    image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C' } ]
+[21:44:49:633] Message: "Test Total Cost" at row:1454, Content:  5.44
+[21:44:49:633] Message: "Players array length" at row:1430, Content:  1
+[21:44:49:640] Message: "Winner player min and max" at row:1435, Content:  { steamid: '76561198089643543',
+  min: 0,
+  max: 5.44,
+  nick: 'Chad',
+  ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+  item: 'eSports 2014 Summer Case',
+  color: 'rgb(191,191,191)',
+  image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C' }
+[21:44:49:640] Message: "winner in cycle: 76561198089643543"
+[21:44:49:640] Message: "No game offers, can give prize"
+[21:44:49:653] Message: "Trade offer token: oOl2eUYC"
+[21:44:49:653] Message: "account id: 129377815"
+[21:44:51:548] Message: "Current items: ,eSports 2014 Summer Case" at row:undefined, Content:  undefined
+[21:44:51:549] Message: "Chance: 1"
+[21:44:51:549] Message: "Sent:"
+[21:44:51:549] Message: "eSports 2014 Summer Case || eSports 2014 Summer Case || 3266212566"
+[21:44:53:337] Message: "Wipe function started"
+[21:44:53:337] Message: "Prepared items to history"
+[21:44:53:337] Message: "Starting to send all "end-game""
+[21:44:53:338] Message: "Starting updating history"
+[21:44:53:340] Message: "Trying to update total win counter"
+[21:44:53:340] Message: "Trying to update max win counter"
+[21:44:53:341] Message: "Trying to update today max win counter"
+[21:44:53:345] Message: "Trying to update game counter"
+[21:44:53:346] Message: "All globals cleared, next is setTimeout 20"
+[21:44:53:346] Message: "wiped"
+[21:44:53:347] Message: "Successfully updated history table"
+[21:44:53:351] Message: "Successfully updated game counter"
+[21:44:53:352] Message: "Successfully updated today max win"
+[21:44:53:352] Message: "Successfully updated TotalWin"
+[21:44:53:353] Message: "Successfully updated max win"
+[21:45:13:349] Message: "Send all game number, jackpot 0"
+[21:45:13:349] Message: "Starting to send informers for each socket"
+[21:45:13:359] Message: "Send all "start-game""
+[22:5:35:883] Message: "New offers: 1"
+[22:5:36:984] Message: "Current game offers" at row:716, Content:  []
+[22:5:36:990] Message: "Sending api request..."
+[22:5:37:421] Message: "Received api request!"
+[22:5:38:719] Message: "Next function is acceptOffer! - 76561198089643543 - 664207735"
+[22:5:38:719] Message: "Checking min deposite - 664207735"
+[22:5:38:720] Message: "Принимаем трейд id - 76561198089643543"
+[22:5:38:720] Message: "Greater than min deposite - 664207735"
+[22:5:50:666] Message: "Timer tick is 0"
+[22:5:52:168] Message: "Players test print" at row:1453, Content:  [ { steamid: '76561198089643543',
+    min: 0,
+    max: 5.44,
+    nick: 'Chad',
+    ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+    item: 'eSports 2014 Summer Case',
+    color: 'rgb(191,191,191)',
+    image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C' } ]
+[22:5:52:169] Message: "Test Total Cost" at row:1454, Content:  5.44
+[22:5:52:169] Message: "Players array length" at row:1430, Content:  1
+[22:5:52:169] Message: "Winner player min and max" at row:1435, Content:  { steamid: '76561198089643543',
+  min: 0,
+  max: 5.44,
+  nick: 'Chad',
+  ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+  item: 'eSports 2014 Summer Case',
+  color: 'rgb(191,191,191)',
+  image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C' }
+[22:5:52:169] Message: "winner in cycle: 76561198089643543"
+[22:5:52:169] Message: "No game offers, can give prize"
+[22:5:52:176] Message: "Trade offer token: oOl2eUYC"
+[22:5:52:176] Message: "account id: 129377815"
+[22:5:54:53] Message: "Current items: ,eSports 2014 Summer Case" at row:undefined, Content:  undefined
+[22:5:54:53] Message: "Chance: 1"
+[22:5:54:53] Message: "Sent:"
+[22:5:54:53] Message: "eSports 2014 Summer Case || eSports 2014 Summer Case || 3266301906"
+[22:5:55:869] Message: "Wipe function started"
+[22:5:55:869] Message: "Prepared items to history"
+[22:5:55:869] Message: "Starting to send all "end-game""
+[22:5:55:870] Message: "Starting updating history"
+[22:5:55:872] Message: "Trying to update total win counter"
+[22:5:55:872] Message: "Trying to update max win counter"
+[22:5:55:873] Message: "Trying to update today max win counter"
+[22:5:55:875] Message: "Trying to update game counter"
+[22:5:55:878] Message: "All globals cleared, next is setTimeout 20"
+[22:5:55:878] Message: "wiped"
+[22:5:55:880] Message: "Successfully updated history table"
+[22:5:55:882] Message: "Successfully updated max win"
+[22:5:55:883] Message: "Successfully updated game counter"
+[22:5:55:883] Message: "Successfully updated TotalWin"
+[22:5:55:884] Message: "Successfully updated today max win"
+[22:6:15:882] Message: "Send all game number, jackpot 0"
+[22:6:15:883] Message: "Starting to send informers for each socket"
+[22:6:15:907] Message: "Send all "start-game""
+[22:8:31:695] Message: "New offers: 1"
+[22:8:32:864] Message: "Current game offers" at row:716, Content:  []
+[22:8:32:869] Message: "Sending api request..."
+[22:8:33:311] Message: "Received api request!"
+[22:8:34:575] Message: "Next function is acceptOffer! - 76561198089643543 - 664210008"
+[22:8:34:576] Message: "Checking min deposite - 664210008"
+[22:8:34:577] Message: "Принимаем трейд id - 76561198089643543"
+[22:8:34:577] Message: "Greater than min deposite - 664210008"
+[22:8:48:738] Message: "Timer tick is 0"
+[22:8:50:240] Message: "Players test print" at row:1453, Content:  [ { steamid: '76561198089643543',
+    min: 0,
+    max: 5.44,
+    nick: 'Chad',
+    ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+    item: 'eSports 2014 Summer Case',
+    color: 'rgb(191,191,191)',
+    image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C' },
+  { steamid: '76561198089643543',
+    min: 5.44,
+    max: 10.88,
+    nick: 'Chad',
+    ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+    item: 'eSports 2014 Summer Case',
+    color: 'rgb(191,191,191)',
+    image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C' },
+  { steamid: '76561198089643543',
+    min: 10.88,
+    max: 16.32,
+    nick: 'Chad',
+    ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+    item: 'eSports 2014 Summer Case',
+    color: 'rgb(191,191,191)',
+    image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C' } ]
+[22:8:50:249] Message: "Test Total Cost" at row:1454, Content:  16.32
+[22:8:50:249] Message: "Players array length" at row:1430, Content:  3
+[22:8:50:254] Message: "Winner player min and max" at row:1435, Content:  { steamid: '76561198089643543',
+  min: 10.88,
+  max: 16.32,
+  nick: 'Chad',
+  ava: 'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/61/615f7e70c2321e6c35dda1f96b80c55ccb07f744_full.jpg',
+  item: 'eSports 2014 Summer Case',
+  color: 'rgb(191,191,191)',
+  image: '-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C' }
+[22:8:50:255] Message: "winner in cycle: 76561198089643543"
+[22:8:50:255] Message: "No game offers, can give prize"
+[22:8:50:260] Message: "Trade offer token: oOl2eUYC"
+[22:8:50:260] Message: "account id: 129377815"
+[22:8:52:490] Message: "Current items: ,eSports 2014 Summer Case,eSports 2014 Summer Case,eSports 2014 Summer Case" at row:undefined, Content:  undefined
+[22:8:52:490] Message: "Chance: 1"
+[22:8:52:490] Message: "Sent:"
+[22:8:52:491] Message: "eSports 2014 Summer Case || eSports 2014 Summer Case || 3266301906"
+[22:8:52:491] Message: "eSports 2014 Summer Case || eSports 2014 Summer Case || 3266315055"
+[22:8:52:491] Message: "eSports 2014 Summer Case || eSports 2014 Summer Case || 3266315067"
+[22:8:56:975] Message: "Wipe function started"
+[22:8:56:976] Message: "Prepared items to history"
+[22:8:56:976] Message: "Starting to send all "end-game""
+[22:8:56:977] Message: "Starting updating history"
+[22:8:56:978] Message: "Trying to update total win counter"
+[22:8:56:980] Message: "Trying to update max win counter"
+[22:8:56:982] Message: "Trying to update today max win counter"
+[22:8:56:986] Message: "Trying to update game counter"
+[22:8:56:986] Message: "All globals cleared, next is setTimeout 20"
+[22:8:56:986] Message: "wiped"
+[22:8:56:987] Message: "Successfully updated history table"
+[22:8:56:989] Message: "Successfully updated game counter"
+[22:8:56:990] Message: "Successfully updated TotalWin"
+[22:8:56:990] Message: "Successfully updated max win"
+[22:8:56:990] Message: "Successfully updated today max win"
+[22:9:16:992] Message: "Send all game number, jackpot 0"
+[22:9:16:992] Message: "Starting to send informers for each socket"
+[22:9:17:3] Message: "Send all "start-game""
